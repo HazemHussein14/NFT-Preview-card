@@ -31,9 +31,6 @@ Users should be able to:
 ![Screenshot](images/Nft-preview-card.PNG)
 
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - [Solution](https://your-solution-url.com)
@@ -53,9 +50,8 @@ Users should be able to:
 
 I learned how to create an image overlay using CSS Pseaudo elements with nice and smooth effect while hovering
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Some HTML code I'm proud of
+
 ```css
 header {
   width: 29rem;
