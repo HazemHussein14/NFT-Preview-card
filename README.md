@@ -80,7 +80,7 @@ header::before {
 ### Useful resources
 
 - [Stackoverflow](https://stackoverflow.com/questions/21086385/how-to-make-in-css-an-overlay-over-an-image) - This helped me for creating the image overlay. I really liked this pattern and will use it going forward.
-- [Imagekit.io](https://imagekit.io/blog/css-image-overlay/) - This is an amazing article which takes about overlaying images and text using different ways
+- [Imagekit.io](https://imagekit.io/blog/css-image-overlay/) - This is an amazing article which talkes about overlaying images and text using different ways
 
 
 
