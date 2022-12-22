@@ -69,7 +69,7 @@ header:hover::before  {
 .main-content {
   margin-bottom: 2.4rem;
 }
-.main-content h1 {
+.main-content h2 {
   font-size: 2rem;
   font-weight: normal;
   color: #fff;
@@ -78,7 +78,7 @@ header:hover::before  {
   transition: var(--main-transition);
   width: fit-content;
 }
-.main-content h1:hover {
+.main-content h2:hover {
   color: var(--Cyan);
 }
 .main-content .description {
