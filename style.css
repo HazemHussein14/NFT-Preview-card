@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --Soft-blue: #8bacda;
+  --Cyan: #00fff7;
+  --main-BG: #0d192b;
+  --card-BG: #14253d;
+  --line: #2f415b;
+  --main-transition: 0.3s;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--main-BG);
+}
+.card {
+  max-width: 34rem;
+  background-color: var(--card-BG);
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  box-shadow: 0rem -0.4rem 4.4rem 1.6rem rgb(0 0 0 / 10%);
+}
+header {
+  width: 29rem;
+  height: 29rem;
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  border-radius: 9px;
+  margin-bottom: 1.6rem;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--Cyan);
+  opacity: 0;
+  border-radius: 0.9rem;
+  transition: var(--main-transition);
+}
+header .eye {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--main-transition);
+}
+header:hover .eye {
+  opacity: 1;
+}
+header:hover::before  {
+  opacity: 0.5;
+}
+.main-content {
+  margin-bottom: 2.4rem;
+}
+.main-content h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  transition: var(--main-transition);
+  width: fit-content;
+}
+.main-content h1:hover {
+  color: var(--Cyan);
+}
+.main-content .description {
+  font-size: 1.8rem;
+  color: var(--Soft-blue);
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+.details .amount,
+.details .time {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+}
+.amount p {
+  color: var(--Cyan);
+}
+.time p {
+  color: var(--Soft-blue);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--Soft-blue);
+  border-top: 1px solid var(--line);
+  padding-top: 1.6rem;
+}
+.author a {
+  color: #fff;
+  font-weight: 400;
+  transition: var(--main-transition);
+  text-decoration: none;
+}
+.author a:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+.author img {
+  max-width: 3.6rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--Soft-blue);
+}
+@media (max-width: 22em) {
+  html {
+    font-size: 50%;
+  }
+}
+.attribution a {
+  color: #fff;
+  text-decoration: none;
+  transition: var(--main-transition);
+}
+.attribution a:hover {
+  color: var(--Cyan);
+}
+
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
